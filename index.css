@@ -1,0 +1,21 @@
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+body {
+  font-family: "system";
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.photo { max-height: 3rem; margin-right: 10px; float: left;}
+
+.container { 
+  max-width: 600px;  
+  margin: auto;
+}
